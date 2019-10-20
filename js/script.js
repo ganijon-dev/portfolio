@@ -19,7 +19,7 @@ var swiper = new Swiper('.swiper-container', {
 
 
   window.sr = ScrollReveal();
-    sr.reveal('nav , .logo-box', {
+    sr.reveal('nav' , {
         duration: 2000,
         origin: 'bottom'
     });
