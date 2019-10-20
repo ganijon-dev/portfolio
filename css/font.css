@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'HurmeGeometricSans3-Bold';
+  src: url('../fonts/Hurme/HurmeGeometricSans3-Bold.eot');
+  src: url('../fonts/Hurme/HurmeGeometricSans3-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Hurme/HurmeGeometricSans3-Bold.ttf') format('truetype'),
+       url('../fonts/Hurme/HurmeGeometricSans3-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LucidaFax';
+  src: url('../fonts/Lucida/LucidaFax.ttf') format('truetype'),
+       url('../fonts/Lucida/LucidaFax.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LucidaFaxRegular';
+  src: url('../fonts/Lucida/LucidaFaxRegular.eot');
+  src: url('../fonts/Lucida/LucidaFaxRegular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+

@@ -1,0 +1,341 @@
+* {
+  zoom: 100%; }
+
+html {
+  scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  padding: 0;
+  color: aliceblue;
+  font-family: "HurmeGeometricSans3-Bold"; }
+
+a {
+  color: aliceblue;
+  text-decoration: none; }
+
+a:hover {
+  color: #F16C4F;
+  text-decoration: none;
+  cursor: pointer; }
+
+a:active {
+  color: #F16C4F; }
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-left: 160px; }
+  nav ul li {
+    list-style: none; }
+    nav ul li a {
+      display: block;
+      margin: 10px 0;
+      padding: 10px 20px;
+      text-decoration: none; }
+    nav ul li a.active, nav ul li a:hover {
+      transition: 0.5s;
+      color: #F16C4F; }
+
+p {
+  margin-bottom: 0.5rem; }
+
+.logo-box {
+  background-color: #F16C4F;
+  float: left;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  border-radius: 5px;
+  box-sizing: border-box; }
+
+.logo-title {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+  font-size: 3.5rem; }
+
+.main-about {
+  width: 100%;
+  padding-top: 40px;
+  background: #222222; }
+
+.about-info {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 30px;
+  background: #1F1F1F; }
+
+#name-cont {
+  font-size: 64px;
+  margin: 30px 0;
+  line-height: 100px; }
+
+.firstname {
+  margin-left: 5%;
+  margin-top: 10%; }
+
+.lastname {
+  line-height: 40%;
+  margin-left: 10%; }
+
+.navbar-toggler {
+  background-color: #F16C4F; }
+
+.small-headers {
+  font-weight: bold;
+  color: #F16C4F; }
+
+.contact-info {
+  padding-left: 20px;
+  color: #F16C4F;
+  margin-top: 20px; }
+
+.sub-info {
+  color: #BFBFBF;
+  font-family: "LucidaFaxRegular"; }
+
+#right-arrow {
+  margin-left: 30px; }
+
+.experience {
+  min-height: 400px;
+  background: #222222;
+  padding-bottom: 50px; }
+
+.experince-title {
+  padding: 40px;
+  color: #F16C4F; }
+
+.job-title, .job-info {
+  text-align: center; }
+
+.job-title {
+  font-size: 20px; }
+
+.job-info {
+  color: #BFBFBF;
+  font-size: 14px;
+  font-family: "LucidaFaxRegular";
+  font-weight: 500; }
+
+.portfolio, .contact {
+  background: #1F1F1F; }
+
+#query-box {
+  margin-top: 40px;
+  padding: 0px 60px;
+  align-content: center; }
+
+.portfolio-box, .skills-box, .contact-box {
+  font-size: 18px;
+  color: #F16C4F;
+  text-align: center;
+  padding: 40px; }
+
+.portfolio-title {
+  text-align: center; }
+
+.special-words {
+  color: #F16C4F;
+  font-weight: bold; }
+
+.skills {
+  color: #F16C4F;
+  text-align: center;
+  background: #222222;
+  min-height: 620px; }
+
+.contact-icons {
+  margin: 20px;
+  color: #F16C4F; }
+
+.contact-form {
+  margin-bottom: 150px; }
+
+.contact-info {
+  margin-left: 10px;
+  color: aliceblue; }
+
+#fb {
+  padding-left: 10px; }
+
+.send-btn {
+  background: #F16C4F;
+  padding: 0px;
+  border: none;
+  font-size: 14px;
+  height: 30px;
+  width: 80px;
+  color: aliceblue;
+  margin-left: 10px;
+  float: left; }
+
+.programming-frame, .web-frame, .frameworks-frame {
+  margin: 30px 0px;
+  padding: 20px;
+  width: 350px;
+  height: 450px;
+  background: #1F1F1F; }
+
+#skills-icon {
+  margin: 10px; }
+
+.skills-title {
+  margin: 10px;
+  color: aliceblue;
+  font-size: 20px; }
+
+.icon-description {
+  color: #BFBFBF;
+  font-size: 22px;
+  margin: 20px; }
+
+.icon-title {
+  margin-left: 5px; }
+
+.swiper-container {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 50px; }
+
+.swiper-slide {
+  background-position: center;
+  width: 400px;
+  height: 550px;
+  background: #222222; }
+
+.form {
+  margin-top: 30px;
+  width: 350px; }
+
+.txt {
+  color: white;
+  outline: none;
+  font-family: "LucidaFaxRegular";
+  font-size: 16px;
+  border: none;
+  padding: 5px;
+  background: #222222;
+  width: 100%; }
+
+.contact-title {
+  margin: 30px 0px;
+  color: aliceblue;
+  font-size: 16px;
+  font-family: "LucidaFaxRegular"; }
+
+#contact-title {
+  color: #BFBFBF; }
+
+.personal-contacts-item {
+  margin: 20px; }
+
+.details {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center; }
+
+.contact-title-item {
+  font-size: 14px;
+  font-family: "LucidaFaxRegular"; }
+
+.project-title {
+  font-size: 22px;
+  font-family: "LucidaFaxRegular";
+  font-weight: bold; }
+
+.project-details {
+  width: 100%;
+  height: 160px;
+  font-family: "LucidaFaxRegular", sans-serif;
+  font-size: 16px;
+  padding: 20px; }
+
+#project-btn {
+  font-family: "LucidaFaxRegular";
+  font-weight: 600;
+  margin-bottom: 20px; }
+
+.contact {
+  text-align: center;
+  color: #F16C4F; }
+
+#social-icon {
+  margin: 10px 0px;
+  margin-right: 10px; }
+
+.col-xl-6 {
+  padding: 0; }
+
+.programming-frame, .web-frame, .frameworks-frame {
+  margin: 20px auto; }
+
+@media (max-width: 768px) {
+  nav ul {
+    margin-left: 0px; }
+
+  .menu-toggle {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    float: right;
+    cursor: pointer; }
+
+  .menu-toggle:before {
+    margin-top: 50px;
+    content: '\f0c9';
+    font-family: fontAwesome;
+    font-size: 50px;
+    line-height: 40px; }
+
+  .menu-toggle.active:before {
+    margin-top: 50px;
+    content: '\f00d';
+    font-family: fontAwesome;
+    font-size: 50px;
+    line-height: 40px; }
+
+  nav {
+    display: none;
+    float: right; }
+
+  nav.active {
+    display: block;
+    width: 100%; }
+
+  nav.active ul {
+    text-align: center;
+    display: block; }
+
+  nav.active ul li {
+    margin: 0; }
+
+  #name-cont {
+    line-height: 50px;
+    font-size: 38px; }
+
+  .basic-info, .small-headers {
+    text-align: center;
+    margin: 10px; }
+
+  .main-info {
+    font-size: 20px; }
+
+  .project-details {
+    font-size: 12px; }
+
+  .query {
+    font-size: 36px; }
+
+  .form {
+    width: 300px; }
+
+  .small-headers {
+    font-size: 26px; } }
