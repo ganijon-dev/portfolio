@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UFT-8">
+    <meta name="viewport" content="width=device-width", initial-scale=1.0>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+     
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<title>Pizza-SushiStore</title>
+<link rel="icon" type="image/ico" href="img/logo-title-icon.png">
+    </head>
+    
+<body>
+<!-- Start Here -->
+
+<!-- Main Header -->
+<div class="main-nav d-none d-md-block">
+    <div class="container">
+        <div class="row align-items-center py-2">
+            <div class="col-1.5 logo-image ml-2">
+              <a href="#" alt="Logo"><img src="img/logo.png"></a>
+            </div>
+            <div class="col-4 text-muted delivery-info align-top">
+            <span>Delivery Time: 10:00am-11:00pm</span> 
+            </div>
+            <div class="col-4 phone-number" >
+                <span class="text muted align-top" id="delivery-text">Free Delivery<br></span>
+                <a href="tel:+601123537828" id="phone-dialer">
+                                    <span class="align-top" >+60-112-353-78-28</span>
+                            </a>
+                    <button class="btn btn-link text-muted font-weight-bold align-top" data-toggle="modal" data-target="#callmeModal" type="button" id="call-me"><span class="align-top">Call me</span></button>
+             </div>
+             
+             <div class="modal" id="callmeModal">
+                 <div class="modal-dialog">
+                     <div class="modal-content">
+                         <div class="modal-header">
+                             <h6 class="modal-title">Ask to Call</h6>
+                             <button class="close" data-dismiss="modal">&times;</button>
+                             </div>
+                                  <div class="modal-body">
+                                    <form>
+                                      <div class="form-group">
+                                            <label for="Name">Name</label>
+                                            <input type="text" placeholder="Muhammad" class="form-control">
+                                              </div>
+                                      <div class="form-group">
+                                    <label for="password">Phone Number</label>
+                                    <input type="password" placeholder="+601123537828" class="form-control">
+                                      </div>
+                                    </form>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button class="btn btn-outline-warning text-dark" data-dismiss="modal">Submit </button>
+                                    </div>
+                                </div>
+                              </div>
+                </div>
+             
+             
+             <div class="col-1 btn btn-outline-warning text-dark" id="login" data-toggle="modal" data-target="#loginModal">Login</div>
+             
+             <div class="modal" id="loginModal">
+                 <div class="modal-dialog">
+                     <div class="modal-content">
+                         <div class="modal-header">
+                             <h6 class="modal-title">Login</h6>
+                             <button class="close" data-dismiss="modal">&times;</button>
+                             </div>
+                                  <div class="modal-body">
+                                    <form>
+                                      <div class="form-group">
+                                            <label for="username">Username</label>
+                                            <input type="text" placeholder="Username" class="form-control">
+                                              </div>
+                                      <div class="form-group">
+                                    <label for="password">Password</label>
+                                    <input type="password" placeholder="Password" class="form-control">
+                                      </div>
+                                    </form>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button class="btn btn-outline-warning text-dark" data-dismiss="modal">Login</button>
+                                    </div>
+                                </div>
+                              </div>
+                </div>
+            </div>
+        </div>
+</div>
+         
+      
+      
+
+          
+   <!--Navbar Categories-->   
+<nav class="navbar navbar-expand-sm navbar-light bg-white sticky-top">
+    <div class="container">
+        <a class="navbar-brand d-block d-md-none" href="index.html">
+            <img src="img/logo-p.png" alter= "Logo">
+        </a>
+        
+              
+        <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a href="pizza.html" class="nav-link">Pizza</a>
+                </li>
+                    
+                <li class="nav-item">
+                    <a href="sushi.html" class="nav-link">Sushi</a>
+                </li>
+                    
+                <li class="nav-item">
+                    <a href="rolls.html" class="nav-link">Rolls</a>
+                </li>
+                    
+                <li class="nav-item">
+                    <a href="salads.html" class="nav-link">Salads</a>
+                </li>
+                    
+                <li class="nav-item">
+                    <a href="desserts.html" class="nav-link">Desserts</a>
+                </li>
+                    
+                <li class="nav-item active">
+                    <a href="drinks.html" class="nav-link">Drinks</a>
+                </li>
+        
+            </ul>
+            
+           
+           
+        </div>
+             <a href="index.html" class="navbar-brand"><img src="img/cart.png"> <span id="num-items" class="mx-auto text-white font-italic bg-warning  m-1  border rounded-circle">0</span></a>
+        </div>     
+    
+            
+</nav>
+             
+         
+
+              
+<!--Products -->
+
+<section id="products">
+<div class="container">
+    <div class="products-header d-flex justify-content mt-3">
+        <h2>Salads</h2></div>
+                  
+    <div class="product-list">
+        <div class="row mb-5">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                <div  class="item">                                                                  <!--Item-1-1-->
+                    <div class="item-image"><img src="img/drink1.jpg"></div>
+                    <div id="item-info my-2">                            
+                        <h4 class="h5 text-center">Pepsi 0.5L</h4>
+                        <div class="item-desc"><p class="text-center"></p> </div>
+                        <div class="btn btn-sm btn-outline-warning text-dark" id="cart-btn">Add to Cart</div>
+                        <div class="d-inline" id="item-price">4.00</div>
+                        <div class="d-inline" id="currency">RM</div>
+                    </div>    
+                </div>    
+            </div>
+            
+            
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                <div  class="item">                                                                <!--Item-1-2-->
+                   <div class="item-image"><img src="img/drink2.jpg"></div>
+                    <div id="item-info my-2">
+                        <h4 class="h5 text-center">Mineral Water 500ml</h4>
+                        <div class="item-desc"><p class="text-center"></p> </div>
+                        <div class="btn btn-sm btn-outline-warning text-dark" id="cart-btn">Add to Cart</div>
+                        <div class="d-inline" id="item-price">7.00</div>
+                        <div class="d-inline" id="currency">RM</div>
+                            
+                    </div>
+                </div>
+            </div>
+                   
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                <div  class="item">                                                                <!--Item-1-3-->
+                   <div class="item-image"><img src="img/drink3.jpg"></div>
+                    <div id="item-info my-2">
+                        <h4 class="h5 text-center">Coke 0.5L</h4>
+                        <div class="item-desc"><p class="text-center"></p> </div>
+                        <div class="btn btn-sm btn-outline-warning text-dark" id="cart-btn">Add to Cart</div>
+                        <div class="d-inline" id="item-price">4.00</div>
+                        <div class="d-inline" id="currency">RM</div>
+                            
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                <div  class="item">                                                                   <!--Item-1-4-->
+                   <div class="item-image"><img src="img/drink4.jpg"></div>
+                    <div id="item-info my-2">
+                        <h4 class="h5 text-center">100 Plus 300ml</h4>
+                        <div class="item-desc"><p class="text-center"></p> </div>
+                        <div class="btn btn-sm btn-outline-warning text-dark" id="cart-btn">Add to Cart</div>
+                        <div class="d-inline" id="item-price">3.00</div>
+                        <div class="d-inline" id="currency">RM</div>    
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                <div  class="item">                                                                   <!--Item-1-4-->
+                   <div class="item-image"><img src="img/drink5.jpg"></div>
+                    <div id="item-info my-2">
+                        <h4 class="h5 text-center">Marigold Juice</h4>
+                        <div class="item-desc"><p class="text-center"></p> </div>
+                        <div class="btn btn-sm btn-outline-warning text-dark" id="cart-btn">Add to Cart</div>
+                        <div class="d-inline" id="item-price">10.00</div>
+                        <div class="d-inline" id="currency">RM</div>    
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                <div  class="item">                                                                   <!--Item-1-4-->
+                   <div class="item-image"><img src="img/drink6.png"></div>
+                    <div id="item-info my-2">
+                        <h4 class="h5 text-center">Fresh Watermelon Juice</h4>
+                        <div class="item-desc"><p class="text-center"></p> </div>
+                        <div class="btn btn-sm btn-outline-warning text-dark" id="cart-btn">Add to Cart</div>
+                        <div class="d-inline" id="item-price">9.00</div>
+                        <div class="d-inline" id="currency">RM</div>    
+                    </div>
+                </div>
+            </div>
+                        
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                <div  class="item">                                                                   <!--Item-1-4-->
+                   <div class="item-image"><img src="img/drink4.jpg"></div>
+                    <div id="item-info my-2">
+                        <h4 class="h5 text-center">100 Plus 1.5L</h4>
+                        <div class="item-desc"><p class="text-center"></p> </div>
+                        <div class="btn btn-sm btn-outline-warning text-dark" id="cart-btn">Add to Cart</div>
+                        <div class="d-inline" id="item-price">7.00</div>
+                        <div class="d-inline" id="currency">RM</div>    
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+</div>
+    
+</section>
+
+
+             
+        
+         <!--Footer-->             
+         <!--Footer-->             
+<section class="footer">
+    <div class="footer-container">
+        <div class="container">
+          <div class="row mt-2">
+           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="about m-1">
+              <h6 class="mt-2 font-weight-bold text-white">About</h6>
+               <p class="text-light">We work everyday to serve a great food, our pizza made of the best recipe of Italian Pizza Makers and Chef of Japanese Cuisine came all over the Japan.<br>
+www.pizza-sushistore.com <br>
+All right are reserved© <span class="year">2019!</span></p>
+                
+            </div>
+        </div>
+        
+        
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="information m-1">
+              <h6 class="mt-2 font-weight-bold text-white">Information</h6>
+               <p class="text-light">Pizza-Sushi Store<br> 63000, Cyberjaya,<br>Persiaran Harmoni 6 <br>
+                                   <a href="tel:+601123537828" id="phone-dialer">
+                                    <span class="phone-footer text-light" >+60-112-353-78-28</span>
+                   </a></p>
+
+                
+            </div>
+        </div>
+        
+         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="delivery m-1">
+              <h6 class="mt-2 font-weight-bold text-white"><a href="delivery.html">Delivery and Payment</a></h6>
+               <p class="text-light"><span id="delivery-zone"><a href="delivery.html">Delivery Zone</a></span><br>Time: 10:00am-11:00pm<br>Free Delivery from 20RM
+
+                
+            </div>
+        </div>
+        
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="download m-1">
+              <h6 class="mt-2 font-weight-bold text-white">Download App</h6>
+            
+                   <a href="https://www.apple.com/my/itunes/charts/free-apps/"><img src="img/app-store.png" class="my-2"></a>
+                   <a href="https://play.google.com/store?hl=en"><img src="img/google-play.png" class="my-2"></a>
+
+                
+            </div>
+        </div>
+        
+    </div>
+        </div>
+    </div>
+    
+    
+    
+    
+</section>
+             
+          
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>        
+    
+       
+</body>
+        
+</html>
