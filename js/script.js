@@ -144,3 +144,14 @@ $(document).ready(function () {
         $('nav').toggleClass('active')
     })
 })
+
+$(window).scroll(function(){
+  if($(window).scrollTop() > 300){
+      $(".arrow-up").fadeIn("slow");
+  }
+});
+$(window).scroll(function(){
+  if($(window).scrollTop() < 300){
+      $(".arrow-up").fadeOut("fast");
+  }
+});

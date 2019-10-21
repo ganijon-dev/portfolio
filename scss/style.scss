@@ -99,6 +99,15 @@ p {
     background: $secondary-bg;
 }
 
+.arrow-up {
+    z-index: 1;
+    position: fixed;
+    bottom: 30px;
+    right: 150px;
+    opacity: 0.4;
+    
+}
+
 
 #name-cont {
     font-size: 64px;
@@ -136,7 +145,8 @@ p {
     font-family: $secondary-font;
 }
 #right-arrow {
-    margin-left: 30px;
+    color: $primary;
+    margin-left: 10px;
 }
 .experience{
     min-height: 400px;
@@ -169,9 +179,14 @@ p {
 }
 
 #query-box{
-    margin-top: 40px;
-    padding: 0px 60px;
+    text-align: center;
+    margin: 70px 0px 60px ;
+    padding: 0px 30px;
     align-content: center;
+}
+
+.email{
+    color : $primary;
 }
 
 .portfolio-box,.skills-box, .contact-box {
@@ -227,7 +242,7 @@ p {
 }
 
 .programming-frame , .web-frame , .frameworks-frame {
-    margin: 30px 0px ;
+    margin: 20px auto;
     padding: 20px;
     width: 350px;
     height: 450px;
@@ -334,9 +349,6 @@ p {
     padding: 0;
 }
 
-.programming-frame, .web-frame, .frameworks-frame{
-    margin: 20px auto;
-}
 
 
 @media (max-width : 768px) {
@@ -387,9 +399,16 @@ p {
         line-height: 50px;
         font-size: 38px;
     }
+    
+    .about-title, .main-info, .sub-info{
+        padding-left: 10px;
+    }
     .basic-info , .small-headers{
         text-align: center;
         margin: 10px;
+    }
+    .arrow-up {
+    right: 50px;
     }
     .main-info {
         font-size: 20px;

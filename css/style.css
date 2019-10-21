@@ -71,6 +71,13 @@ p {
   padding-bottom: 30px;
   background: #1F1F1F; }
 
+.arrow-up {
+  z-index: 1;
+  position: fixed;
+  bottom: 30px;
+  right: 150px;
+  opacity: 0.4; }
+
 #name-cont {
   font-size: 64px;
   margin: 30px 0;
@@ -101,7 +108,8 @@ p {
   font-family: "LucidaFaxRegular"; }
 
 #right-arrow {
-  margin-left: 30px; }
+  color: #F16C4F;
+  margin-left: 10px; }
 
 .experience {
   min-height: 400px;
@@ -128,9 +136,13 @@ p {
   background: #1F1F1F; }
 
 #query-box {
-  margin-top: 40px;
-  padding: 0px 60px;
+  text-align: center;
+  margin: 70px 0px 60px;
+  padding: 0px 30px;
   align-content: center; }
+
+.email {
+  color: #F16C4F; }
 
 .portfolio-box, .skills-box, .contact-box {
   font-size: 18px;
@@ -177,7 +189,7 @@ p {
   float: left; }
 
 .programming-frame, .web-frame, .frameworks-frame {
-  margin: 30px 0px;
+  margin: 20px auto;
   padding: 20px;
   width: 350px;
   height: 450px;
@@ -273,9 +285,6 @@ p {
 .col-xl-6 {
   padding: 0; }
 
-.programming-frame, .web-frame, .frameworks-frame {
-  margin: 20px auto; }
-
 @media (max-width: 768px) {
   nav ul {
     margin-left: 0px; }
@@ -322,9 +331,15 @@ p {
     line-height: 50px;
     font-size: 38px; }
 
+  .about-title, .main-info, .sub-info {
+    padding-left: 10px; }
+
   .basic-info, .small-headers {
     text-align: center;
     margin: 10px; }
+
+  .arrow-up {
+    right: 50px; }
 
   .main-info {
     font-size: 20px; }
