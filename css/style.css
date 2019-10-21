@@ -308,10 +308,8 @@ p {
 
   nav.active {
     display: block;
-    width: 100%; 
-    visibility: visible;
-    opacity: 1;
-}
+    width: 100%;
+    opacity: 1 !important; }
 
   nav.active ul {
     text-align: center;
