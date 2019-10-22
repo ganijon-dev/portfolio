@@ -155,3 +155,5 @@ $(window).scroll(function(){
       $(".arrow-up").fadeOut("fast");
   }
 });
+
+response.setHeader("Set-Cookie", "HttpOnly;Secure;SameSite=Strict");
