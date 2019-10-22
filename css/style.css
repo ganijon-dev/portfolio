@@ -72,7 +72,7 @@ p {
   background: #1F1F1F; }
 
 .arrow-up {
-  z-index: 1;
+  z-index: 10;
   position: fixed;
   bottom: 30px;
   right: 150px;
@@ -236,13 +236,13 @@ p {
   background: #222222;
   width: 100%; }
 
-.contact-title {
+.cont-title {
   margin: 30px 0px;
   color: aliceblue;
   font-size: 16px;
   font-family: "LucidaFaxRegular"; }
 
-#contact-title {
+.contact-title {
   color: #BFBFBF; }
 
 .personal-contacts-item {
@@ -269,7 +269,7 @@ p {
   font-size: 16px;
   padding: 20px; }
 
-#project-btn {
+.project-btn {
   font-family: "LucidaFaxRegular";
   font-weight: 600;
   margin-bottom: 20px; }
@@ -278,7 +278,7 @@ p {
   text-align: center;
   color: #F16C4F; }
 
-#social-icon {
+.social-icon {
   margin: 10px 0px;
   margin-right: 10px; }
 
@@ -324,7 +324,7 @@ p {
     text-align: center;
     display: block; }
 
-  nav.active ul li {
+  nav.active ul li a {
     margin: 0; }
 
   .programming-frame, .web-frame, .frameworks-frame {

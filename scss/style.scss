@@ -100,7 +100,7 @@ p {
 }
 
 .arrow-up {
-    z-index: 1;
+    z-index: 10;
     position: fixed;
     bottom: 30px;
     right: 150px;
@@ -295,7 +295,7 @@ p {
     background: $primary-bg;
     width: 100%;
 }
-.contact-title{
+.cont-title{
     margin: 30px 0px;
     color: aliceblue;
     font-size: 16px;
@@ -303,7 +303,7 @@ p {
 }
 
 
-#contact-title{
+.contact-title{
     color: #BFBFBF;
     
 }
@@ -332,7 +332,7 @@ p {
     font-size: 16px;
     padding: 20px;
 }
-#project-btn{
+.project-btn{
     font-family: $secondary-font;
     font-weight: 600;
     margin-bottom: 20px;
@@ -341,7 +341,7 @@ p {
     text-align: center;
     color: $primary;
 }
-#social-icon {
+.social-icon {
     margin: 10px 0px;
     margin-right: 10px;
 }
@@ -391,7 +391,7 @@ p {
         display: block;
         
     }
-    nav.active ul li{
+    nav.active ul li a{
         margin:0;     
     }
     .programming-frame , .web-frame , .frameworks-frame {
