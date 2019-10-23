@@ -48,9 +48,9 @@ a {
 
 
 #num-items {
-    font-size: 12px;
+    font-size: 20px;
     position: relative;
-    top:0;
+    top:5px;
     left: 0;
     margin: 0 auto;
 }
@@ -70,9 +70,20 @@ a {
 
 
 .navbar-light .navbar-nav .nav-link {
+    text-align: center;
     color: #333;
     font-size: 20px;
     font-weight: 600;
+}
+
+
+.cart-box img {
+    width: 35px;
+    height: 35px;
+  }
+.cart-box a:hover {
+    text-decoration: none;
+    color: black;
 }
 
 .delivery-info {
@@ -214,4 +225,17 @@ a {
     margin-left:15px;
     margin-right:2;
   }
+  .cart-box {
+    width: 80px;
+    position: fixed;
+    top: 16px;
+    right: 80px;
+  }
+  #cart-icon {
+      width: 35px;
+      height: 35px;
+      
+  }
+  
+
 }
