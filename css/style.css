@@ -220,6 +220,14 @@ p {
   padding-top: 20px;
   padding-bottom: 50px; }
 
+.imageBx {
+  width: 400px;
+  height: 260px; }
+
+.imageBx img {
+  max-width: 100%;
+  max-height: 100%; }
+
 .swiper-slide {
   background-position: center;
   width: 400px;
@@ -306,6 +314,10 @@ p {
     margin-right: -50%;
     transform: translate(-50%, -50%); }
 
+  .imageBx {
+    width: 320px;
+    height: 210px; }
+
   nav ul {
     margin-left: 0px; }
 
@@ -381,4 +393,11 @@ p {
     width: 300px; }
 
   .small-headers {
-    font-size: 26px; } }
+    font-size: 26px; }
+
+  .swiper-slide {
+    width: 320px;
+    height: 450px; }
+
+  .project-details {
+    height: 120px; } }
