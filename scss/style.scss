@@ -10,13 +10,19 @@ $secondary-font : 'LucidaFaxRegular' ;
 
 html {
   scroll-behavior: smooth;
+    
 }
 
 body{
+    
+    width: 100%;
     margin: 0;
     padding: 0;
     color: aliceblue;
     font-family: $primary-font;
+}
+.container{
+    overflow: hidden;
 }
     
 a {
