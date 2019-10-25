@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
-        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
         <link type="text/css" rel="stylesheet" href="style.css">
+        
         
         <title>Pig Game</title>
     </head>
@@ -27,15 +27,15 @@
                     <div class="player-current-label">Current</div>
                     <div class="player-current-score" id="current-1">0</div>
                 
-            <input type="text" name="Score Number" class="input_field" placeholder="Max Number">
+            <input type="text" name="Score Number" class="input_field" placeholder="Winning Points">
             <br>
                 </div>
             </div>
            
-            <button class="btn-rule"><i class="ion-ios-help-outline"></i>Game Rule</button>
-            <button class="btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
-            <button class="btn-roll"><i class="ion-ios-loop"></i>Roll dice</button>
-            <button class="btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
+            <button class="btn-rule" id="myBtn"><i><ion-icon name="help-circle-outline"></ion-icon></i>Game Rule</button>
+            <button class="btn-new"><i><ion-icon name="add-circle-outline"></ion-icon></i>New game</button>
+            <button class="btn-roll"><i><ion-icon name="infinite"></ion-icon></i>Roll dice</button>
+            <button class="btn-hold"><i><ion-icon name="download"></ion-icon></i>Hold</button>
               
             <img src="dice-5.png" alt="Dice" class="dice">
             <img src="dice-5.png" alt="Dice" class="dice-2">
@@ -52,5 +52,6 @@
         </div>
         
         <script src="app.js"></script>
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     </body>
 </html>
