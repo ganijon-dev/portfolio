@@ -199,8 +199,14 @@ h2 {
     margin-bottom: 15px;
 }
 
-.icome__title { color: #28B9B5; }
-.expenses__title { color: #FF5049; }
+.icome__title { 
+    text-align: center;
+    color: #28B9B5; 
+    }
+.expenses__title {
+    text-align: center;
+    color: #FF5049; 
+}
 
 .item {
     padding: 13px;
