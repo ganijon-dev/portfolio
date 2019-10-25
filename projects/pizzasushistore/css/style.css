@@ -21,14 +21,14 @@ a {
     color: #333;
 }
 
-#phone-dialer:hover {
+a:hover {
+    color: rgba(252, 173, 29, 0.92)
+}
+
+.phone-dialer:hover {
      color: rgba(252, 173, 29, 0.92)
 }
 
-
-#cat-head :hover{
-    color: rgba(252, 173, 29, 0.92)
-}
 
 
 
@@ -38,12 +38,9 @@ a {
 #navbarCollapse a:active{
     color: rgba (252.173,29,0.92)
 }
-#phone-dialer {
+.phone-dialer {
     
         text-decoration: none;
-}
-#phone-dialer :hover {
-    
 }
 
 
@@ -155,11 +152,11 @@ a {
     font-size: 12px;
     margin-bottom: 10px;
 }
-#cart-btn {
+.cart-btn {
     margin: 0 14px;
 }
 
-#item-price, #currency {
+.item-price, .currency {
    
     font-size: 20px;
     font-weight: bold;
