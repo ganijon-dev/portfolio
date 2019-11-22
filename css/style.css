@@ -154,7 +154,7 @@ p {
   padding: 0px 30px;
   align-content: center; }
 
-.email {
+.email, .swiper-button-next, .swiper-button-prev, .swiper-pagination {
   color: #F16C4F; }
 
 .portfolio-box, .skills-box, .contact-box {

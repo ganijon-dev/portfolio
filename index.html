@@ -205,6 +205,9 @@
                 </div>
                 <!-- Paggination -->
                 <div class="swiper-pagination"></div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
   
             </div>
         </div>
@@ -292,13 +295,13 @@
                     <form class="contact-form ml-4" action="https://formspree.io/mvopoaey" method="post">
                         <div class="form">
                             <div>
-                                <input name="name" class="txt my-3" type="text" id="name" placeholder="Name" >
+                                <input name="name" class="txt my-3" type="text" id="name" placeholder="Name" required >
                             </div>
                             <div>
-                                <input name ="_replyto" class="txt my-3" type="email" id="email" placeholder="Email">
+                                <input name ="_replyto" class="txt my-3" type="email" id="email" placeholder="Email" required>
                             </div>
                             <div>
-                                <textarea name="message" class="txt my-3" id="message" rows="3" placeholder="Your Message"></textarea>
+                                <textarea name="message" class="txt my-3" id="message" rows="3" placeholder="Your Message" required></textarea>
                             </div>
                             <div>
                                 <input type="submit" class="send-btn" value="Send">
